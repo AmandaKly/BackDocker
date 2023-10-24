@@ -7,7 +7,7 @@ const port = 3000;
 // Configuração da conexão com o PostgreSQL
 const pool = new Pool({
   user: 'atv',
-  host: 'localhost',
+  host: 'containerbackend',
   database: 'produtos',
   password: 'atv12345', // Use a senha que você definiu anteriormente
   port: 5432,
