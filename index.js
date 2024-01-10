@@ -6,10 +6,10 @@ const port = 3000;
 
 // Configuração da conexão com o PostgreSQL
 const pool = new Pool({
-  user: 'atv',
-  host: 'containerbackend',
-  database: 'produtos',
-  password: 'atv12345', // Use a senha que você definiu anteriormente
+  user: 'UsuarioBanco',
+  host: 'containerbackend', // Nome da imagem do container
+  database: 'produtos', 
+  password: 'senhaBanco',
   port: 5432,
 });
 
